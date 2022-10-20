@@ -13,8 +13,6 @@ class FaceMeshDetector():
         self.minDetectionCon = minDetectionCon
         self.minTrackCon = minTrackCon
 
-
-
         self.mpDraw = mp.solutions.drawing_utils
         self.mpFaceMesh = mp.solutions.face_mesh
         self.faceMesh = self.mpFaceMesh.FaceMesh(self.staticMode,self.maxFaces,
