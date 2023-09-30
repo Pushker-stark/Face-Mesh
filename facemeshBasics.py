@@ -1,6 +1,7 @@
 import cv2
 import mediapipe as mp
 import time
+import numpy as np
 
 cap = cv2.VideoCapture(0)#"PoseVideos/kgf_Trim (5).mp4"
 pTime = 0
