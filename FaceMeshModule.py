@@ -1,7 +1,8 @@
 import cv2
 import mediapipe as mp
 import time
-import numpy
+import numpy as np
+
 
 class FaceMeshDetector():
 
